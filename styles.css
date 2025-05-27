@@ -1,0 +1,43 @@
+:root {
+
+
+    /* Spacing */
+
+    --space-100: 8px;
+    --space-300: 24px;
+    --space-400: 32px;
+    --space-500: 40px;
+    --space-800: 64px;
+    --space-1100: 88px;
+
+    /* Colors */
+
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey-200: #D8D8D8;
+    --grey-300: #C5C6CE;
+    --navy-600: #5E607A;
+    --navy-950: #00001A;
+    --gold-400: #E9AA52;
+    --red-500: #F15D51;
+
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+.inter-alia {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
