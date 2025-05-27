@@ -41,3 +41,11 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+}
+
