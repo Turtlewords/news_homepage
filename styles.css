@@ -42,15 +42,19 @@ body {
     margin: 0;
 }
 
-main {
+#container {
     margin: 1rem 1rem 4rem;
+}
+
+main {
+    
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
 header {
-    padding: 2rem 1rem 1rem;
+    padding: 2rem 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -134,7 +138,7 @@ header {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
-    align-items: center;
+    
     flex-direction: row-reverse;
     justify-content: space-between;
     transition: 0.5s;
@@ -144,13 +148,24 @@ header {
 
 
 #sidenav ul {
+    padding-top: 20vh;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 nav li {
     list-style-type: none;
+}
+
+#desktop-menu ul {
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+}
+
+#desktop-menu {
+    display: none;
 }
 
 /* Images */
@@ -176,6 +191,10 @@ img {
 nav a {
     text-decoration: none;
     color: var(--navy-950);
+}
+
+nav a:hover {
+    color: var(--red-500);
 }
 
 /* Typography */
@@ -267,6 +286,16 @@ h1 {
 
     #head-content, #etc {
         flex-direction: row;
+    }
+
+    
+
+    #menu {
+        display: none;
+    }
+
+    #desktop-menu {
+        display: block;
     }
 
 }
