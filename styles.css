@@ -123,6 +123,36 @@ header {
     gap: .5rem;
 }
 
+#sidenav {
+    z-index: 1;
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+
+#sidenav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+
 /* Images */
 
 img {
@@ -134,13 +164,19 @@ img {
 }
 
 #menu-close {
-    display: none;
+    align-self: flex-start;
+    padding: 1rem;
 }
 
 .thumb {
     width: 120px;
 }
 
+
+nav a {
+    text-decoration: none;
+    color: var(--navy-950);
+}
 
 /* Typography */
 
@@ -206,6 +242,8 @@ h1 {
     color: var(--navy-600);
     line-height: 1.4;
 }
+
+
 
 
 @media (min-width: 1250px) {
