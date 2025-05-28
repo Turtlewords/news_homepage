@@ -188,7 +188,7 @@ img {
 }
 
 .thumb {
-    width: 100px;
+    width: 90px;
 }
 
 
@@ -219,6 +219,7 @@ h1 {
 
 #new h2 {
     color: var(--gold-400);
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -235,7 +236,7 @@ h1 {
 .article a {
     text-decoration: none;
     color: white;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -254,7 +255,7 @@ h1 {
 
 .etc-text a {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     color: var(--navy-950);
 }
@@ -270,6 +271,10 @@ h1 {
     line-height: 1.6;
 }
 
+#desktop-menu a {
+    color: var(--navy-600);
+    font-size: .9rem;
+}
 
 
 
@@ -288,6 +293,10 @@ h1 {
 
     #container {
         padding: 2rem;
+    }
+
+    header {
+        margin-bottom: 1rem;
     }
 
     main {
