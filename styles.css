@@ -54,7 +54,7 @@ main {
 }
 
 header {
-    padding: 2rem 0 1rem;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,6 +103,10 @@ header {
     flex-direction: column;
     gap: 1.25rem;
     grid-area: new;
+}
+
+.article {
+    padding-bottom: 1.25rem;
 }
 
 .article:not(:last-child) {
@@ -175,7 +179,7 @@ img {
 }
 
 #logo {
-    width: 40px;
+    width: 50px;
 }
 
 #menu-close {
@@ -207,6 +211,10 @@ h1 {
 
 #head p {
     color: var(--navy-600);
+}
+
+#head-text p {
+    line-height: 1.6;
 }
 
 #new h2 {
@@ -259,7 +267,7 @@ h1 {
 
 .gray {
     color: var(--navy-600);
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 
@@ -282,6 +290,7 @@ h1 {
         "hero hero new"
         "etc etc etc";
         max-width: 1200px;
+        row-gap: 4rem;
     }
 
     #head-content, #etc {
